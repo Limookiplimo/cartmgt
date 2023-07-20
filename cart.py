@@ -16,6 +16,5 @@ def get_items():
         total_price = cart_quantity * price[i]
         print(f"{i}: Quantity - {cart_quantity}, Price - {total_price}")
 
-get_items()
 
 
