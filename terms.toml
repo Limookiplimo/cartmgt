@@ -1,4 +1,4 @@
-[Cooking fat]
+[fat]
 label = "Cooking Fat"
 stock = 1000
 price = 1950
@@ -11,7 +11,7 @@ size = 5
 discount = 3
 
 
-[Ajab flour 2kg]
+[flour]
 label = "Flour"
 stock = 1000
 price = 2100
