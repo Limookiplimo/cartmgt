@@ -37,5 +37,3 @@ def print_receipt():
         print(receipt)
 
     print(remarks)
-
-print_receipt()
