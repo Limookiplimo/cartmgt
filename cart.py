@@ -4,6 +4,21 @@ import toml
 terms_path = pathlib.Path(__file__).parent / "terms.toml"
 cart_data = toml.loads(terms_path.read_text())
 
+def prepare_catalog():
+    print("Available Stock: ")
+    for item, data in cart_data.items():
+        if item == "meta":
+            continue
+
+        stock = data.get("stock", 0)
+        price = data.get("price", 0)
+        catalogue = f" {item}: \n Stock - {stock}, Price - {price} \n" 
+        print(catalogue)
+
+def add_to_cart():
+    pass
+
+
 def discounted_prices(item, quantity, price):
     if item in cart_data and "terms" in cart_data[item]:
         item_terms = cart_data[item]["terms"]
@@ -37,3 +52,4 @@ def print_receipt():
         print(receipt)
 
     print(remarks)
+prepare_catalog()
