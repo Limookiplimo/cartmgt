@@ -1,22 +1,24 @@
-[Fat]
+[Cooking fat]
 label = "Cooking Fat"
+stock = 1000
+price = 1950
+
+[fat.cart]
+quantity = 15
 
 [[fat.terms]]
 size = 5
 discount = 3
-description = """
-    Congratulations, your cart has earned 3% percent discount on total amount for cooking fat. Shop more for more discounts.
-"""
 
 
-
-
-[Flour]
+[Ajab flour 2kg]
 label = "Flour"
+stock = 1000
+price = 2100
+
+[flour.cart]
+quantity = 100
 
 [[flour.terms]]
 size = 20
 discount = 2.5
-description = """
-    Congratulations, your cart has earned 2.5% percent discount on total amount for flour. Shop more for more discounts.
-"""
