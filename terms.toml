@@ -2,8 +2,8 @@
 label = "Cooking Fat"
 
 [[fat.terms]]
-size = "5+"
-discount = [3]
+size = 5
+discount = 3
 description = """
     Congratulations, your cart has earned 3% percent discount on total amount for cooking fat. Shop more for more discounts.
 """
@@ -15,8 +15,8 @@ description = """
 label = "Flour"
 
 [[flour.terms]]
-size = "20+"
-discount = [2.5]
+size = 20
+discount = 2.5
 description = """
     Congratulations, your cart has earned 2.5% percent discount on total amount for flour. Shop more for more discounts.
 """
