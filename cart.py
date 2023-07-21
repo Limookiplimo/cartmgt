@@ -48,6 +48,7 @@ def discounted_prices(item, quantity, price):
         for term in item_terms:
             if eval(f"{quantity}{term['size']}"):
                 return price * (1 - term['discount'] / 100)
+            
     return price
 
 
