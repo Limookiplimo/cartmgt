@@ -1,2 +1,2 @@
 # Cart Manager
-A service to manage and apply terms of sales to sales cart.
+A service that applies terms of sales to sales cart.
