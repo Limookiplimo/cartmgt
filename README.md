@@ -1,2 +1,2 @@
 # Cart Manager
-A service that applies terms of sales to sales cart.
+Cart management service. Using TOML library to manage terms, stock and payments for sales orders.
